@@ -3,5 +3,10 @@ module.exports = {
     title: `ecommerce-single-page`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-emotion"]
+  plugins: [
+    "gatsby-plugin-emotion",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ]
 };
